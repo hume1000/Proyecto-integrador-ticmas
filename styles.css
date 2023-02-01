@@ -1,0 +1,156 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+@media all and (max-width: 930px) {
+    #about {
+        flex-direction: column;
+    }
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media all and (min-width: 931px) {
+    #about {
+        flex-direction: row;
+    }
+    img {
+        max-width: 30%;
+        height: auto;
+    }
+}
+
+body {
+    width: auto;
+    color: white;
+    background-color: #3c3c44;
+}
+
+header {
+    color: #3c3c44;
+    background-color: #facb06;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+
+label {
+
+    display: inline-block;
+    width: 90px;
+}
+
+#about {
+    display: flex;
+    gap: 15px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+#title2 {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    color: white;
+    background-color: #888788;
+}
+
+#titleicon {
+    width: 100px;
+    height: auto;
+    color: #3c3c44;
+    background-color: #facb06;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacticons {
+    color: #3c3c44;
+    gap: 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 5px;
+    color: #f9e992;
+    background-color: #c4bcc4;
+}
+
+.fa-brands.fa-envira{
+    color: green;
+}
+
+.fa-brands.fa-html5 {
+    color: blue;
+}
+
+.fa-brands.fa-css3-alt {
+    color: red;
+}
+
+.fa-brands.fa-square-js {
+    color: yellow;
+}
+
+.fa-brands.fa-react {
+    color: lightskyblue;
+}
+
+.fa-light.fa-atom-simple {
+    color: plum;
+}
+
+a:active {
+    color: #c4bcc4;
+}
+
+.link1 {
+    color: #3c3c44;
+}
+
+.link2 {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    margin: 15px;
+}
+
+li {
+    list-style: none;
+}
